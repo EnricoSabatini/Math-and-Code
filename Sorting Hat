@@ -1,0 +1,13 @@
+house=input("what house are you in? ").lower()
+
+if house=="gryffindor":
+    colours="Scarlet and yellow."
+elif house=="hufflepuff":
+    colours="Yellow and black."
+elif house=="ravenclaw":
+    colours="Blue and bronze."
+elif house=="slytherin":
+    colours="Green and silver."
+else: colours="Not known."
+
+print("Your house colours are " + colours)
